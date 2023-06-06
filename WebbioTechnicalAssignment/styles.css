@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto Thin", sans-serif;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 36px;
+    cursor: pointer;
+}
+.past-game-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.past-games div label {
+    margin: 10px;
+}
