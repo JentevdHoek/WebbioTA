@@ -1,11 +1,15 @@
 Keuzes voor de opdracht
 =======================
+
 HTML + CSS + JS
+
 Gevraagd is een web-based applicatie dus HTML + CSS + JS is een logische keuze. Daarnaast heb ik er ervaring mee. 
 Applicatie is niet complex dus geen framework nodig.
+
 ---------------
 
-DB: IndexedDB.
+IndexedDB.
+
 Simpele browser DB gekozen voor een kleine applicatie. Data die opgeslagen wordt is niet complex.
 
 -----------
